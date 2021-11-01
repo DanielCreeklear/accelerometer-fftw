@@ -2,6 +2,8 @@
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+*.sln
+.vs
 Debug
 
 # Output File

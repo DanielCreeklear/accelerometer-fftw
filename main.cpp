@@ -25,7 +25,7 @@ int main(int argc, char** argv)
 
     frequencys = (double*)malloc(sizeof(double) * sizeData);
 
-    samplingRate = double(long long(1000) * sizeData) / double(collectionTime);
+    samplingRate = double(1000 * sizeData) / double(collectionTime);
     inverseSamplingRate = double(collectionTime) / double(long long(1000) * sizeData);
 
     fftfreq(frequencys, sizeData, inverseSamplingRate);

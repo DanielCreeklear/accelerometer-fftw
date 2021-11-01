@@ -11,7 +11,7 @@ The input file name must be:
 # Running
 
 ````
-$ .\accelerometer-fftw.exe [filename.txt]
+$ .\fft-accelerometer\accelerometer-fftw.exe [filename.txt]
 ````
 
 # Results
@@ -35,13 +35,13 @@ $ .\venv\Scripts\activate.bat
 
 Install modules:
 ````
-$ pip install -r requirements.txt
+$ pip install -r .\fft-accelerometer\requirements.txt
 ````
 
 ## Generating the graph
 
 ````
-$ python plot-fftw.py
+$ python .\fft-accelerometer\plot-fftw.py
 ````
 
 # Graphic

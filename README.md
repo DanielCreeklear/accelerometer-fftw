@@ -5,6 +5,7 @@ It reads the data from an accelerometer stored in a .txt file,
 and exports a .txt file with the data in the frequency domain, through the FFT.
 
 The input file name must be:
+
 (Start Epoch)-(Collection Duration in milliseconds)-(Sensor ID).txt
 
 # Running

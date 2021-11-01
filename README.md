@@ -45,4 +45,4 @@ $ python plot-fftw.py
 
 # Graphic
 
-![plot-fftw](./plot-fftw.png)
+![plot-fftw](plot-fftw.png)

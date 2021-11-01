@@ -1,0 +1,11 @@
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+Debug
+
+# Output File
+output.txt
+
+# Python virtual env
+venv
